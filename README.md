@@ -9,7 +9,9 @@ There is one script for each of the big 4 American sports leagues: MLB, NFL, NBA
 When ran, the script will output the props in the following format:
 
 Justin Verlander,Under 2.5,Earned Runs,-142.0
+
 Max Fried,Over 1.5,Earned Runs,-155.0
+
 Michael Soroka,Over 1.5,Earned Runs,-138.0
 
 ## Functionality
