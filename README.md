@@ -16,3 +16,5 @@ Michael Soroka,Over 1.5,Earned Runs,-138.0
 
 ## Functionality
 First, the script uses Chromedriver to manually open the general pinnacle site for that league. It scrapes the current upcoming games to be played (not including live games), and then proceeds to each unique game url's player props page and scrapes for props with odds in the range -137 to -155. When using a taking vig into consideration, -137 is approximately the cutoff where props begin to be profitable, assuming the user is betting the highest EV lineup types. The range is capped at -155 since it is very rare that pick-em sites will leave a line up that is more skewed than that. 
+
+NOTE: These scripts will only work properly when the season is in progress, otherwise the links will be invalid and the code will yield an error.
